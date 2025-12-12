@@ -3,7 +3,7 @@
 
 Name:           python-pyotp
 Version:        2.9.0
-Release:        4
+Release:        5
 Source0:        https://files.pythonhosted.org/packages/source/p/%{oname}/%{oname}-%{version}.tar.gz
 Summary:        Python One Time Password Library
 URL:            https://pypi.org/project/pyotp/
