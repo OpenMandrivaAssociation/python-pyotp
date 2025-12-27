@@ -9,7 +9,7 @@ Summary:        Python One Time Password Library
 URL:            https://pypi.org/project/pyotp/
 License:        MIT License
 Group:          Development/Python
-BuildRequires:  python
+BuildRequires:  python%{pyver}dist(pip)
 BuildSystem:    python
 BuildArch:      noarch
 
