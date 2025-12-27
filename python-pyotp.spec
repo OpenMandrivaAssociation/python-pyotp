@@ -10,6 +10,7 @@ URL:            https://pypi.org/project/pyotp/
 License:        MIT License
 Group:          Development/Python
 BuildRequires:  python%{pyver}dist(pip)
+BuildRequires:  python%{pyver}dist(setuptools)
 BuildSystem:    python
 BuildArch:      noarch
 
