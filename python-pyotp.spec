@@ -1,8 +1,7 @@
-%define name    pyotp
 %define oname   pyotp
 
 Name:           python-pyotp
-Version:        2.9.0
+Version:        2.10.0
 Release:        5
 Source0:        https://files.pythonhosted.org/packages/source/p/%{oname}/%{oname}-%{version}.tar.gz
 Summary:        Python One Time Password Library
@@ -18,5 +17,5 @@ BuildArch:      noarch
 Python One Time Password Library
 
 %files
-%{py_sitedir}/pyotp  
-%{py_sitedir}/pyotp-*.*-info
+%{py_sitedir}/%{oname}
+%{py_sitedir}/%{oname}-*.*-info
